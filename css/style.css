@@ -492,16 +492,34 @@ body {
     position: relative;
 }
 
+.about .about-content .timeline .timeline-item {
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+
+.about .about-content .timeline .timeline-item:last-child {
+    padding-bottom: 0px;
+}
+
 .about .about-content .timeline .timeline-item::before {
     content: '';
     width: 1px;
     position: absolute;
     height: 100%;
-    left: 0;
+    left: 7px;
     top: 0;
 }
 
-.about .about-content .timeline .circle-dot {}
+.about .about-content .timeline .circle-dot {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    height: 15px;
+    width: 15px;
+    left: 0px;
+    border-radius: 50%;
+}
 
 .about .about-content .timeline .timeline-date {
     font-size: 14px;
@@ -527,6 +545,5 @@ body {
     line-height: 25px;
     color: #504e70;
     margin: 0;
-    padding-bottom: 50px;
 
 }
