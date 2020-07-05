@@ -755,6 +755,7 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     cursor: zoom-out;
+    padding: 30px;
 }
 
 
@@ -772,12 +773,44 @@ body {
     position: relative;
 }
 
+.lightbox .lightbox-content .lightbox-close {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    /* background-color: red; */
+    top: -40px;
+    right: 0px;
+    font-size: 32px;
+    text-align: right;
+    color: #fff;
+    line-height: 40px;
+}
+
 .lightbox .lightbox-content .lightbox-caption {
     position: absolute;
     width: 100%;
-    bottom: -15px;
+    bottom: -20px;
     left: 0;
-    background-color: red;
+
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.lightbox .lightbox-controls .prev-item,
+.lightbox .lightbox-controls .next-item {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa {
+    font-size: 16px;
 }
