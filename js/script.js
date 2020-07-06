@@ -32,6 +32,7 @@ for (let i = 0; i < totalFilterBtn; i++) {
 // Portfolio Lightbox
 const lightbox = document.querySelector(".lightbox"),
     lightboxImg = lightbox.querySelector(".lightbox-img"),
+    lightboxClose = lightbox.querySelector(".lightbox-close"),
     lightboxText = lightbox.querySelector(".caption-text"),
     lightboxCounter = lightbox.querySelector(".caption-counter");
 let itemIndex = 0;
@@ -45,7 +46,7 @@ for (let i = 0; i < totalPortfolioItem; i++) {
 }
 
 function nextItem() {
-    if (itemIndex == totalPortfolioItem - 1) {
+    if (itemIndex === totalPortfolioItem - 1) {
         itemIndex = 0;
     } else {
         itemIndex++;
@@ -54,7 +55,7 @@ function nextItem() {
 }
 
 function prevItem() {
-    if (itemIndex == 0) {
+    if (itemIndex === 0) {
         itemIndex = totalPortfolioItem - 1;
     } else {
         itemIndex--;
@@ -74,5 +75,8 @@ function changeItem() {
 }
 // close Lightbox
 lightbox.addEventListener("click", function (event) {
-    console.log(event.target);
+    if (event.target === lightboxClose || event.target === lightbox) {
+        toggleLightbox();
+    }
+
 })
