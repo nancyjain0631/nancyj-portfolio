@@ -8,5 +8,9 @@
         padding-left: 0;
     }
 
+    .about .about-content .personal-info .info-ite p span {
+        display: inline-block;
+        margin-left: 0;
+    }
 
 }
