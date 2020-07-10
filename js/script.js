@@ -60,12 +60,17 @@ function prevItem() {
     } else {
         itemIndex--;
     }
-    changeItem()
+    changeItem();
+
 }
 
 function toggleLightbox() {
+
     lightbox.classList.toggle("open");
+
+
 }
+
 
 function changeItem() {
     imgSrc = portfolioItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
@@ -80,3 +85,6 @@ lightbox.addEventListener("click", function (event) {
     }
 
 })
+// window.onload = function () {
+//     document.getElementById("item").style.display = "none";
+// };
