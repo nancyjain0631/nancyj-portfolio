@@ -11,6 +11,18 @@ function setActiveStyle(color) {
     }
 
 }
+// body skin
+const bodySkin = document.querySelectorAll(".body-skin"),
+    totalBodySkin = bodySkin.length;
+for (let i = 0; i < totalBodySkin; i++) {
+    bodySkin[i].addEventListener("change", function () {
+        if (this.value === "dark") {
+            document.body.className("dark")
+        } else {
+            document.body.className("dark")
+        }
+    })
+}
 document.querySelector(".toggle-style-switcher").addEventListener("click", () => {
-    console.log("hi")
+    document.querySelector(".style-switcher").classList.toggle("open");
 })
