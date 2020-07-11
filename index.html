@@ -8,15 +8,15 @@
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Pink theme -->
-    <link rel="stylesheet" href="./css/skins/pink.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="pink" href="./css/skins/pink.css" disabled>
     <!-- Blue theme -->
-    <link rel="stylesheet" href="./css/skins/blue.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="blue" href="./css/skins/blue.css" disabled>
     <!-- Green theme -->
-    <link rel="stylesheet" href="./css/skins/green.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="green" href="./css/skins/green.css" disabled>
     <!-- Orange theme -->
-    <link rel="stylesheet" href="./css/skins/orange.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="orange" href="./css/skins/orange.css" disabled>
     <!-- Yellow theme -->
-    <link rel="stylesheet" href="./css/skins/yellow.css">
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="./css/skins/yellow.css" disabled>
     <!-- Mobile stylesheet -->
     <link rel="stylesheet" href="./css/mobile-style.css">
     <!-- Bootstrap  4.7.0-->
@@ -626,7 +626,20 @@
     </div>
     <!-- End Lightbox -->
 
-
+    <!-- Libe style switcher -->
+    <div class="style-switcher">
+        <h5>Style Switcher</h5>
+        <ul>
+            <li><a href="#" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
+            <li><a href="#" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
+            <li><a href="#" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a>
+            </li>
+            <li><a href="#" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a>
+            </li>
+            <li><a href="#" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
+        </ul>
+    </div>
+    <!-- Libe style switcher -->
     <!-- Template js -->
     <script src="./js/script.js"></script>
 </body>
