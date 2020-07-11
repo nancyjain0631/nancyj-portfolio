@@ -65,10 +65,7 @@ function prevItem() {
 }
 
 function toggleLightbox() {
-
     lightbox.classList.toggle("open");
-
-
 }
 
 
