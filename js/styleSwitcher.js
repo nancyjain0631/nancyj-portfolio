@@ -11,3 +11,6 @@ function setActiveStyle(color) {
     }
 
 }
+document.querySelector(".toggle-style-switcher").addEventListener("click", () => {
+    console.log("hi")
+})
