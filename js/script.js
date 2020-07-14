@@ -1,9 +1,9 @@
-window.addEventListener("load", function () {
-    document.querySelector(".preloader").classList.add("opacity-0");
-    this.setTimeout(function () {
-        document.querySelector(".preloader").getElementsByClassName.display = "none";
-    }, 1000);
-})
+// window.addEventListener("load", function () {
+//     document.querySelector(".preloader").classList.add("opacity-0");
+//     this.setTimeout(function () {
+//         document.querySelector(".preloader").getElementsByClassName.display = "none";
+//     }, 1000);
+// })
 
 // Portfolio Item filter
 const filterContainer = document.querySelector(".portfolio-filter"),
@@ -135,6 +135,9 @@ function showSection(element) {
 
 
 }
+document.querySelector(".hire-me").addEventListener("click", function () {
+    console.log(this);
+})
 
 const navTogglerBtn = document.querySelector(".nav-toggler"),
     aside = document.querySelector(".aside");

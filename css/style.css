@@ -187,7 +187,7 @@ select {
 }
 
 /* preloader */
-.preloader {
+/* .preloader {
     background-color: #222222;
     position: fixed;
     left: 0;
@@ -203,9 +203,9 @@ select {
     justify-content: center;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-}
+} */
 
-.preloader.opacity-0 {
+/* .preloader.opacity-0 {
     opacity: 0;
 }
 
@@ -241,8 +241,8 @@ select {
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
-    }
-}
+    } 
+}*/
 
 /* Aside */
 .aside {
