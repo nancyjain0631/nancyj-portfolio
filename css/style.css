@@ -247,7 +247,7 @@ select {
     cursor: pointer;
     position: fixed;
     left: 300px;
-    top: 30px;
+    top: 20px;
     z-index: 11;
     border-radius: 5px;
     background-color: #fdf9ff;
@@ -270,7 +270,7 @@ select {
 
 }
 
-.aside .nav-toggler span.open {
+.aside .nav-toggler.open span {
     background-color: transparent;
 }
 
@@ -296,6 +296,12 @@ select {
     position: absolute;
     top: 6px;
     left: 0;
+}
+
+.aside .nav-toggler.open span::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 0px;
 }
 
 .aside .nav {

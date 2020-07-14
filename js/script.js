@@ -111,6 +111,9 @@ for (let i = 0; i < totalNavList; i++) {
         }
         this.classList.add("active");
         showSection(this);
+        if (window.innerWidth < 1025) {
+            asideSectionTogglerBtn();
+        }
     })
 }
 
@@ -130,6 +133,9 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
     aside = document.querySelector(".aside");
 navTogglerBtn.addEventListener("click", () => {
     asideSectionTogglerBtn();
+    // or
+    // navTogglerBtn.addEventListener("click", asideSectionTogglerBtn())
+
 })
 
 function asideSectionTogglerBtn() {
