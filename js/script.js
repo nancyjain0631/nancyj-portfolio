@@ -1,3 +1,10 @@
+window.addEventListener("load", function () {
+    document.querySelector(".preloader").classList.add("opacity-0");
+    this.setTimeout(function () {
+        document.querySelector(".preloader").getElementsByClassName.display = "none";
+    }, 1000);
+})
+
 // Portfolio Item filter
 const filterContainer = document.querySelector(".portfolio-filter"),
     filterBtns = filterContainer.children,
@@ -111,7 +118,7 @@ for (let i = 0; i < totalNavList; i++) {
         }
         this.classList.add("active");
         showSection(this);
-        if (window.innerWidth < 1025) {
+        if (window.innerWidth < 1024) {
             asideSectionTogglerBtn();
         }
     })
