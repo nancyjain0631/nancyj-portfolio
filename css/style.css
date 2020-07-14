@@ -50,6 +50,8 @@ select {
     overflow-x: hidden;
     overflow-y: auto;
     opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .section.back-section {
@@ -196,6 +198,8 @@ select {
     z-index: 10;
     border-right: 1px solid #e8dfec;
     padding: 30px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .aside .logo {
@@ -254,6 +258,8 @@ select {
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .aside .nav-toggler span {
@@ -264,6 +270,10 @@ select {
 
 }
 
+.aside .nav-toggler span.open {
+    background-color: transparent;
+}
+
 .aside .nav-toggler span::before {
     content: '';
     height: 2px;
@@ -271,6 +281,12 @@ select {
     position: absolute;
     top: -6px;
     left: 0;
+}
+
+.aside .nav-toggler.open span::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
 }
 
 .aside .nav-toggler span::after {
