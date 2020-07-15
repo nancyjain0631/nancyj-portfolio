@@ -2,6 +2,8 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Rubik', sans-serif; */
 
+
+
 /* General Style */
 html,
 body {
@@ -52,6 +54,7 @@ select {
     opacity: 1;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+
 }
 
 .section.back-section {
@@ -143,8 +146,8 @@ select {
 }
 
 .padd-15 {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 
 
@@ -1198,7 +1201,7 @@ body.dark .aside .nav li a {
 }
 
 body.dark .contact .contact-form .form-item .form-control,
-.contact .contact-info-item p a,
+body.dark .contact .contact-info-item p a,
 body.dark .contact .contact-info-item p,
 body.dark .service .service-item .service-item-inner p,
 body.dark .about .about-content .timeline .timeline-text,

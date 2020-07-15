@@ -1,6 +1,8 @@
 @media (max-width:1024px) {
-    .section .continer {
+
+    .section .container {
         padding-top: 70px;
+
     }
 
     .aside .nav-toggler {
@@ -21,6 +23,7 @@
     .aside.open {
         left: 0px;
     }
+
 
     .section {
         left: 0;
@@ -205,7 +208,38 @@
 
 }
 
+@media (max-width:380px) {
+    .aside.open {
+        width: 100%;
+    }
+
+    .aside .nav-toggler.open {
+        left: 290px;
+    }
+
+    .aside .logo {
+        padding-left: 60px;
+    }
+
+    .aside .copyright-text {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .aside .nav li a {
+        font-size: 16px;
+    }
+}
+
 @media (max-width:320px) {
+    .aside .nav-toggler.open {
+        left: 240px;
+    }
+
+    .aside .logo {
+        padding-left: 40px;
+    }
+
     .contact .contact-info-item {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
