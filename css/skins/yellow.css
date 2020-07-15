@@ -8,6 +8,7 @@
     border-right: 4px solid #ffb400;
 }
 
+.contact .contact-info-item p a:hover,
 .contact .contact-info-item .icon .fa,
 .lightbox .lightbox-controls .prev-item .fa,
 .lightbox .lightbox-controls .next-item .fa,

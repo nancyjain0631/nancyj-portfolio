@@ -135,9 +135,9 @@ function showSection(element) {
 
 
 }
-document.querySelector(".hire-me").addEventListener("click", function () {
-    console.log(this);
-})
+// document.querySelector(".hire-me").addEventListener("click", function () {
+//     console.log(this);
+// })
 
 const navTogglerBtn = document.querySelector(".nav-toggler"),
     aside = document.querySelector(".aside");
