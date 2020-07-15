@@ -262,7 +262,7 @@ select {
 
 .aside .logo {
 
-    padding: 30px 0;
+    padding: 30px 20px;
 }
 
 .aside .logo a {
@@ -1118,6 +1118,11 @@ select {
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
+}
+
+.contact .contact-form .btn-center {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .contact .contact-form .form-item {
