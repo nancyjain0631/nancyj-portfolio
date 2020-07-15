@@ -69,3 +69,47 @@
     font-size: 20px;
     line-height: 43px;
 }
+
+@media (max-width:768px) {
+    .style-switcher {
+
+        top: 15px;
+        padding: 10px;
+    }
+
+    .style-switcher h5 {
+        font-size: 14px;
+        margin-bottom: 6px;
+        padding-bottom: 4px;
+    }
+
+    .style-switcher ul {
+        margin-bottom: 4px;
+    }
+
+    .style-switcher ul li a {
+        height: 20px;
+        width: 20px;
+        margin-right: 1px;
+
+    }
+
+    .style-switcher .toggle-style-switcher {
+
+        height: 30px;
+        width: 30px;
+
+        left: -30px;
+
+    }
+
+    .style-switcher .toggle-style-switcher .fa {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .style-switcher.open h5 .body-skin {
+        font-size: 12px;
+    }
+
+}
