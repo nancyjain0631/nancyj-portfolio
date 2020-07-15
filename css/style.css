@@ -1100,6 +1100,10 @@ select {
     font-weight: 400;
 }
 
+.contact .contact-info-item p a {
+    text-decoration: none;
+}
+
 .contact .contact-form {
     /* backgrounsd-color: rgb(124, 47, 47); */
     -ms-flex: 0 0 100%;
